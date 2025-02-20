@@ -1,8 +1,7 @@
-import Image from "next/image";
-import Search from "./Components/search";
+import Home from "./Components/Home";
 
-export default function Home() {
+export default function Root() {
   return (
-    <Search />
+    <Home />
   );
 }

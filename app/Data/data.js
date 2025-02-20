@@ -1,9 +1,46 @@
+export const doctors = [
+    { id: 1, name: 'Dr. Alice Johnson', specialization: 'Cardiology' },
+    { id: 2, name: 'Dr. Bob Brown', specialization: 'Cardiology' },
+    { id: 3, name: 'Dr. Carol White', specialization: 'Neurology' },
+    { id: 4, name: 'Dr. Dave Black', specialization: 'Neurology' },
+    { id: 5, name: 'Dr. Eve Green', specialization: 'Oncology' },
+    { id: 6, name: 'Dr. Frank Adams', specialization: 'Oncology' },
+    { id: 7, name: 'Dr. Grace Moore', specialization: 'Pediatrics' },
+    { id: 8, name: 'Dr. Harry Clark', specialization: 'Pediatrics' },
+    { id: 9, name: 'Dr. Irene Scott', specialization: 'Dermatology' },
+    { id: 10, name: 'Dr. Jack Thomas', specialization: 'Dermatology' },
+    { id: 11, name: 'Dr. Karen Lewis', specialization: 'Cardiology' },
+    { id: 12, name: 'Dr. Luke Anderson', specialization: 'Cardiology' },
+    { id: 13, name: 'Dr. Mary King', specialization: 'Neurology' },
+    { id: 14, name: 'Dr. Nick Hill', specialization: 'Neurology' },
+    { id: 15, name: 'Dr. Olivia Taylor', specialization: 'Oncology' },
+    { id: 16, name: 'Dr. Paul Martinez', specialization: 'Oncology' },
+    { id: 17, name: 'Dr. Quentin Lee', specialization: 'Pediatrics' },
+    { id: 18, name: 'Dr. Rachel Hall', specialization: 'Pediatrics' },
+    { id: 19, name: 'Dr. Sarah Wright', specialization: 'Dermatology' },
+    { id: 20, name: 'Dr. Tom Young', specialization: 'Dermatology' },
+
+];
+
 export const patients = [
     { id: 1, name: 'John Doe', age: 30, ailment: 'Flu' },
     { id: 2, name: 'Jane Smith', age: 25, ailment: 'Cold' },
-];
-
-export const doctors = [
-    { id: 1, name: 'Dr. Alice Johnson', specialization: 'Cardiology' },
-    { id: 2, name: 'Dr. Bob Brown', specialization: 'Neurology' },
+    { id: 3, name: 'Michael Brown', age: 45, ailment: 'Asthma' },
+    { id: 4, name: 'Emily Davis', age: 35, ailment: 'Diabetes' },
+    { id: 5, name: 'Chris Wilson', age: 50, ailment: 'Hypertension' },
+    { id: 6, name: 'Sarah Johnson', age: 40, ailment: 'Arthritis' },
+    { id: 7, name: 'David Lee', age: 60, ailment: 'Heart Disease' },
+    { id: 8, name: 'Linda Harris', age: 20, ailment: 'Allergies' },
+    { id: 9, name: 'James Clark', age: 55, ailment: 'Kidney Stones' },
+    { id: 10, name: 'Barbara Lewis', age: 65, ailment: 'Osteoporosis' },
+    { id: 11, name: 'Matthew Reed', age: 33, ailment: 'Flu' },
+    { id: 12, name: 'Dorothy Scott', age: 38, ailment: 'Cold' },
+    { id: 13, name: 'Peter Edwards', age: 47, ailment: 'Asthma' },
+    { id: 14, name: 'Sophia Thomas', age: 29, ailment: 'Diabetes' },
+    { id: 15, name: 'Henry Walker', age: 53, ailment: 'Hypertension' },
+    { id: 16, name: 'Rachel Adams', age: 24, ailment: 'Migraines' },
+    { id: 17, name: 'Aaron Richards', age: 43, ailment: 'Rheumatoid Arthritis' },
+    { id: 18, name: 'Donna Martinez', age: 60, ailment: 'COPD' },
+    { id: 19, name: 'Kevin Parker', age: 52, ailment: 'Hernia' },
+    { id: 20, name: 'Theresa Fox', age: 28, ailment: 'Anxiety' }
 ];
