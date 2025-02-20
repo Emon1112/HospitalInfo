@@ -1,5 +1,6 @@
+"use client"
 import React, { useState } from 'react';
-import { patients, doctors } from '../data';
+import { doctors, patients } from '../Data/data';
 
 const Search = () => {
     const [query, setQuery] = useState('');
